@@ -1,0 +1,245 @@
+@font-face {
+  font-family: simplifica;
+  src: url(../SIMPLIFICA/SIMPLIFICA\ Typeface.ttf);
+}
+
+.header{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.logo{
+  width: 150px;
+  height: 35px;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+li{
+  list-style-type: none;
+  padding-right: 90px;
+  margin-top: 20px;
+}
+
+li a{
+ text-decoration: none;
+ font-family: simplifica;
+ font-size: 25px;
+ color: black;
+ }
+
+
+
+
+
+
+.divmedio{
+  height: 650px;
+}
+.main{
+  height: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.divcreativedesign{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 216px;
+ }
+h1{
+  font-family: simplifica;
+  font-size: 72px;
+ }
+ h2{
+   font-family: simplifica;
+   color: #e56b6f;
+   font-size: 72px;
+  }
+ h3{
+   font-family: simplifica;
+  }
+.divlivingdormitorio{
+  grid-area: livingdor;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+}
+ .section{
+  grid-area: section;
+  height: 100%;
+  background-image: url(../multimedia/living2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 2s;
+ }
+
+.section:hover{
+  background: red;
+  }
+  
+
+
+
+
+
+
+
+
+
+.divmedio1{
+  height: 800px;
+}
+.divmain2{
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  align-items:flex-end;
+}
+.divcomedor{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+p{
+  font-family: simplifica;
+  font-size: 25px;
+}
+.divsection2{
+  height: 65%;
+  background-image: url(../multimedia/comedor5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid black;
+  transition: background 2s;
+}
+.divsection2:hover{
+ background: red;
+ }
+.divtexto2{
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.projo{
+  color: #00509d;
+  font-size: 35px;
+  margin-left: 6px;
+}
+
+
+
+
+
+
+
+.divsection3{
+  background-image: url(../multimedia/habitacion1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 2s ;
+}
+.divsection3:hover{
+ background: red;
+ }
+.hazul{
+  color: #00509d;
+}
+.h33{
+  color: #dda15e;
+  font-family: simplifica;
+  font-size: 65px;
+}
+.divpensamientosemociones{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 216px;
+ }
+
+
+  
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+  
+  li{
+    list-style-type: none;
+    padding-right: 20px;
+    margin-top: 30px;
+  }
+ 
+
+  .main{
+   display: none;
+  }
+
+  .divmedio{
+    height: 450px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: 
+    "livingdor section";
+    }
+
+  .divmedio1{
+    height: 450px;
+  }
+
+  .divtexto2{
+    display: none;
+  }
+
+  .divsection2{
+    height: 85%;
+  }
+
+ 
+  .divpensamientosemociones{
+    display: none;
+   }
+
+  
+  
+
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
