@@ -121,7 +121,6 @@ p{
   background-image: url(../multimedia/comedor5.png);
   background-repeat: no-repeat;
   background-size: cover;
-  border: solid black;
   transition: background 2s;
 }
 .divsection2:hover{
@@ -190,11 +189,11 @@ p{
   }
  
 
-  .main{
+ .main{
    display: none;
   }
 
-  .divmedio{
+ .divmedio{
     height: 450px;
     display: grid;
     grid-template-rows: 1fr;
@@ -202,23 +201,15 @@ p{
     grid-template-areas: 
     "livingdor section";
     }
-
-  .divmedio1{
-    height: 450px;
-  }
-
-  .divtexto2{
+ .divtexto2{
     display: none;
   }
-
-  .divsection2{
+ .divsection2{
     height: 85%;
   }
-
- 
-  .divpensamientosemociones{
+ .divpensamientosemociones{
     display: none;
-   }
+  }
 
   
   
