@@ -13,11 +13,14 @@
 .logo{
   width: 150px;
   height: 35px;
-  margin-top: 15px;
+  margin-top: 10px;
   margin-left: 50px;
 }
+.navbar{
+  margin-right: 30px;
+}
 .nav-item{
-  margin-left: 70px;
+  margin-left: 100px;
 }
 .collapse{
   background-color: white;
@@ -27,7 +30,7 @@
   font-size: 25px;
 }
 .main{
-  height: 800px;
+  height: 750px;
 }
 .divmedio{
   height: 100%;
@@ -75,7 +78,7 @@ h1{
 
 
 .section{
-  height: 800px;
+  height: 750px;
 }
 .divcomedor{
   height: 15%;
@@ -164,9 +167,9 @@ p{
 
 .footer{
   height: 100px;
-  margin-top: 100px;
- 
+  margin-top: 90px;
  }
+
 .divicons{
   height: 100%;
   display: flex;
@@ -175,29 +178,99 @@ p{
   align-items: center;
  }
  .iconored{
-  width: 40px;
+  width: 35px;
   height: 30px;
  }
 
  .footer1{
-  height: 100px;
-  margin-top: 250px;
+  height: 90px;
+  margin-top: 300px;
  
  }
 
 
 
 
-
-
-
-
-
-
- .button{
-  color: pink;
-  background-color: white;
+.divabout{
+  height: 600px;
+  width: 600px;
+  border: solid black;
 }
+
+
+
+.slidercontact{
+  height: 100%;
+  width: 100%;
+  border: solid black;
+}
+
+.divform{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.mb-3{
+  width: 70%;
+ }
+
+.form-control{
+  background: linear-gradient(0deg, rgba(255,255,255,0.25674019607843135) 0%, rgba(84,162,24,0.25674019607843135) 100%);
+}
+
+.btn{
+  border: solid white;
+  width: 70%;
+  background: linear-gradient(0deg, rgba(255,255,255,0.25674019607843135) 0%, rgba(84,162,24,0.25674019607843135) 100%);
+  color: black;
+ }
+
+
+
+
+
+
+
+
+.aabout{
+  grid-area: aliving;
+  height: 100%;
+  background-image: url(../multimedia/rendercode.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+}
+.aabout:hover{
+  opacity: 0.4;
+  
+ }
+
+ .babout{
+  grid-area: aliving;
+  height: 100%;
+  background-image: url(../multimedia/jwrenders.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+}
+.babout:hover{
+  opacity: 0.4;
+ }
+
+
 
 
 
@@ -206,12 +279,6 @@ p{
 
 
   
-
-
-
-
-
-
 
 
 

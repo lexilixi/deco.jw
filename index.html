@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/css.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>HomeJW</title>
 </head>
 <body class="container-fluid">
@@ -24,9 +26,6 @@
                         <a class="nav-link" aria-current="page" href="index.html">HOME</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="paginas/pieces.html">PIECES</a>
-                      </li>
-                      <li class="nav-item">
                         <a class="nav-link" href="paginas/about.html">ABOUT</a>
                       </li>
                       <li class="nav-item">
@@ -39,7 +38,10 @@
     </header>
 
     <main class="main row">  
-        <div class="divmedio col-lg-5">
+        <div class="divmedio col-lg-5" data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="200"
+        data-aos-offset="0">
             <h1>CREATIVE</h1>
             <h2>DESIGNS</h2>
             <h3>EVERY SPACE IN YOUR HOME REFLECTS YOUR IDENTITY.</h3>
@@ -81,9 +83,12 @@
 
         <a class="acomedor col-lg-12" href="paginas/roomcomedor.html"></a>
 
-        <div class="divtexto2 col-12">
+        <div class="divtexto2 col-12" data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="200"
+        data-aos-offset="0">
             <h3>STRENGTHEN YOUR PERSONALITY,</h3>
-            <h3 class="pazul"> TRANSMIT YOUR VALUES, GOALS AND PRIORITIES.</h3>
+            <h3 class="pazul"> TRANSMIT YOUR VALUES AND PRIORITIES.</h3>
         </div>
     </section>
 
@@ -104,7 +109,10 @@
             <p>M</p>
         </div>
         
-        <div class="divmedio3 col-lg-5">
+        <div class="divmedio3 col-lg-5" data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="200"
+        data-aos-offset="0">
             <h1>WAKES UP DETERMINED</h1>
             <h2 class="h33">THOUGHTS</h2>
             <h3 class="hazul">AND EMOTIONS.</h3>
@@ -113,20 +121,21 @@
     </div>
     <footer class="footer row">
         <div class="divicons col-sm-12 col-lg-6">
-            <p>hello@jwrenders.com </p>
-            <p>jwainstein@hotmail.com</p> 
-        
-
+            <p>Lisa Heredia</p>
+            <p>lisheredia23@gmail.com</p> 
+            <a href="https://www.linkedin.com/in/lisa-heredia-bb8216260/"><img src="multimedia/linkedin.png" alt="" class="iconored"></a>
         </div>
         <div class="divicons col-sm-12 col-lg-6">
+            <p>Just With Renders</p>
             <a href="https://es-la.facebook.com/JavierWRenders/"><img src="multimedia/facebook.png" alt="" class="iconored"></a>
             <a href="https://www.instagram.com/javierwainstein/?hl=es"><img src="multimedia/instagram.png" alt="" class="iconored"></a>
-            <a href=""><img src="multimedia/whatsapp.png" alt="" class="iconored"></a>
         </div>
     </footer>
 
     
-   
+    <script>
+        AOS.init();
+      </script>
     
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
